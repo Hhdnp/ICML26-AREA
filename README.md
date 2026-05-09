@@ -7,6 +7,9 @@
         <a href='http://www.lamda.nju.edu.cn/zhoudw' target='_blank'>Da-Wei Zhou</a>&emsp;
     </div>
     <div>
+    School of Artificial Intelligence, Nanjing University
+    </div>
+    <div>
     State Key Laboratory for Novel Software Technology, Nanjing University
     </div>
 </div>
@@ -69,6 +72,9 @@ To prepare your JSON files, refer to the settings in the `exps` folder and run t
 ```
 python main.py --config ./exps/area/[configname].json
 ```
+
+## 🌄 About Descriptions
+To keep the repository lightweight, we have only included a subset of the annotated corpus for each dataset. If you need to conduct larger-scale experiments, we also provide a script under `/descriptions` to generate the descriptive corpus. You can use this script to generate the full set of annotations.
 
 ## 🎈 Acknowledgement
 
